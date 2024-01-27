@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'FZXiaoBiaoSong-B05S';
+  src: url('FZXBSJW--GB1-0.woff2') format('woff2'),
+    url('FZXBSJW--GB1-0.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: RGB(161, 198, 242);
+  margin: 0px;
+  font-family: "方正小标宋简体";
+}
+
+p {
+  position: relative;
+  margin-left: 190px;
+}
+
+button {
+  font-family: "方正小标宋简体";
+  position: relative;
+  margin-left: 190px;
+  background: transparent;
+  border: none;
+}
+
+.En_OpenLab {
+  font-size: 120px;
+  margin-bottom: 0px;
+}
+
+.Cn_OpenLab {
+  font-size: 75px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.login {
+  font-size: 28px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+img {
+  width: 100%;
+  height: 90%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
