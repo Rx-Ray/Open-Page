@@ -1,0 +1,100 @@
+{
+  "option": [
+    {
+      "id": "1",
+      "title": "通知公告",
+      "value": "通知公告"
+    },
+    {
+      "id": "2",
+      "title": "实验室荣誉",
+      "value": "实验室荣誉"
+    },
+    {
+      "id": "3",
+      "title": "学长讲堂",
+      "value": "学长讲堂"
+    },
+    {
+      "id": "4",
+      "title": "实验室介绍",
+      "value": "实验室介绍"
+    }
+  ],
+  "announcement": [
+    {
+      "id": "52df",
+      "title": "这是一个通知公告",
+      "categoryId": 1,
+      "content": "<p>这是一个通知公告</p>\n",
+      "auditState": 0,
+      "publishState": 0,
+      "createTime": 1706282139225
+    },
+    {
+      "id": "5514",
+      "title": "这是实验室荣誉板块",
+      "categoryId": 2,
+      "content": "<p>这是实验室荣誉板块</p>\n",
+      "auditState": 0,
+      "publishState": 0,
+      "createTime": 1706282166520
+    },
+    {
+      "id": "291c",
+      "title": "这是学长讲堂板块",
+      "categoryId": 3,
+      "content": "<p>这是学长讲堂板块</p>\n",
+      "auditState": 0,
+      "publishState": 0,
+      "createTime": 1706282198430
+    },
+    {
+      "id": "35ee",
+      "title": "这是实验室介绍",
+      "categoryId": 4,
+      "content": "<p>这是实验室介绍</p>\n",
+      "auditState": 0,
+      "publishState": 0,
+      "createTime": 1706282222464
+    }
+   
+  ],
+  "route": [
+    {
+      "title": "Home",
+      "key": "/home",
+      "id": "bc07"
+    },
+    {
+      "title": "UserList",
+      "key": "/user-manage/list",
+      "id": "daa4"
+    },
+    {
+      "title": "RoleList",
+      "key": "/right-manage/role/list",
+      "id": "751e"
+    },
+    {
+      "title": "RightList",
+      "key": "/right-manage/right/list",
+      "id": "e03e"
+    },
+    {
+      "title": "AnnouncementAdd",
+      "key": "/announcement-manage/add",
+      "id": "4981"
+    },
+    {
+      "title": "AnnouncementDraft",
+      "key": "/announcement-manage/draft",
+      "id": "a586"
+    },
+    {
+      "title": "preview",
+      "key": "/preview/:id",
+      "id": "b90f"
+    }
+  ]
+}
