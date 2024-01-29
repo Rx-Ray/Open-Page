@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Notice Board</title>
+    <link rel="stylesheet" href="adminBulletin.css">
+</head>
+<body>
+<div class="notice-board">
+    <h2>编辑公告</h2>
+    <form>
+        <div class="form-group">
+            <label for="date">日期:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="title">标题:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="content">内容:</label>
+            <div class="notice-content" contenteditable="true">
+                编辑此处的公告内容...
+            </div>
+        </div>
+        <div class="form-group file-input">
+            <label for="file">上传文件:</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <button type="button" class="submit-button" onclick="submitNotice()">提交</button>
+        <button type="button" class="showGG-button" onclick="showAllAnnouncements()">显示全部公告</button>
+
+        <ul id="announcements-list"></ul>
+    </form>
+</div>
+
+<script>
+    function submitNotice() {
+        var date = document.getElementById('date').value;
+        var title = document.getElementById('title').value;
+        var content = document.querySelector('.notice-content').innerHTML;
+        var file = document.getElementById('file').value;
+
+        // 这里可以添加提交公告的逻辑，例如将内容发送到服务器
+        alert('提交成功：\n日期: ' + date + '\n标题: ' + title + '\n简介: ' + content + '\n文件: ' + file);
+    }
+
+    function showAllAnnouncements() {
+        var list = document.getElementById('announcements-list');
+        list.innerHTML = ''; // 清空列表
+
+        // TODO: 从存储中获取所有公告数据，例如使用本地存储localStorage
+
+        // 示例数据
+        var announcementsData = [
+            { date: '2024-01-29', title: '公告1' },
+            { date: '2024-01-28', title: '公告2' },
+            // ... 可以添加更多的示例数据
+        ];
+
+        announcementsData.forEach(function (announcement) {
+            var listItem = document.createElement('li');
+            listItem.className = 'announcement';
+            listItem.innerHTML = '<span>' + announcement.date + ' - ' + announcement.title + '</span>' +
+                '<button class="delete-btn" onclick="deleteAnnouncement(this)">删除</button>';
+            list.appendChild(listItem);
+        });
+    }
+
+    function deleteAnnouncement(btn) {
+        var listItem = btn.parentNode;
+        listItem.parentNode.removeChild(listItem);
+
+        // TODO: 在存储中删除相应的公告数据
+    }
+</script>
+
+</body>
+</html>
