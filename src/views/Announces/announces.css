@@ -1,0 +1,34 @@
+.announces{
+    height: 85vh;
+}
+
+.func-area{
+    position: absolute;
+    top: 100px;
+    width: 600px;
+}
+
+.func-list{
+    width: 600px;
+    height: 100px;
+}
+
+.func-list div{
+    height: 80px;
+    width: 150px;
+    background-color: #c0c0c0;
+    margin: 10px;
+    float: left;
+    margin-left: 0;
+    border-radius: 0.5rem;
+}
+
+.announces-left{
+    position: absolute;
+    left: 15%;
+}
+
+.announces-right{
+    position: absolute;
+    left: 55%;
+}

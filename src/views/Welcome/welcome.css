@@ -1,0 +1,53 @@
+button {
+  font-family: "方正小标宋简体";
+  position: relative;
+  margin-left: 190px;
+  background: transparent;
+  border: none;
+}
+
+.text{
+  position: absolute;
+  top: 28%;
+  left: 58%;
+  font-weight: bold;
+}
+
+.welcome{
+  position: relative;
+  height: 125vh;
+  width: 100%;
+  background: linear-gradient(#e5f1f9, white);
+}
+
+.En_OpenLab {
+  font-size: 35px;
+}
+
+.Cn_OpenLab {
+  font-size: 40px;
+}
+
+.En_Welcome {
+  font-size: 13px;
+  color: #575757;
+}
+
+.Cn_Welcome {
+  font-size: 24px;
+  color: #575757;
+}
+
+.login {
+  font-size: 28px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.back-img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+

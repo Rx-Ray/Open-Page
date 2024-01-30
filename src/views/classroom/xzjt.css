@@ -1,0 +1,103 @@
+#title {
+  position: absolute;
+  line-height: 2vw;
+  top: 1.8vw;
+  right: 10vw;
+  bottom: 15vw;
+  font-size: 8vw;
+  letter-spacing: 1vw;
+  -webkit-text-stroke: 0.3vw rgb(5, 1, 123);
+  color: transparent; 
+  font-family:"华文彩云";
+}
+
+nav {
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+  right: 57vw;
+  bottom: 1vw;
+  background-color: azure;
+}
+
+nav a {
+  top:1vw;
+  font-size: 1.32vw;
+  display: block;
+  margin-bottom: 3vw;
+  text-decoration: none;
+  color: #333;
+  font-family: "楷体";
+  position: relative; 
+  padding-left: 4.5vw; 
+}
+
+nav a::before {
+  content: "";    
+  position: absolute;
+  top: 1.5vw;
+  left: 1.1vw;
+  transform: translateY(-50%);
+  width: 3.3vw;
+  height: 3.3vw;
+  background-color: rgba(0, 81, 255, 0.703); 
+}
+
+section {
+  position: absolute;
+  top: 15vw;
+  left: 45vw;
+  right: 1vw;
+  bottom: 3vw;
+  background-color: rgb(165, 176, 177);
+}
+
+.image-module {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-module img {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.image-module img.active {
+  opacity: 1;
+}
+#prev-button {
+  background-color: #2196F3; 
+  color: white; 
+  border: none; 
+  padding: 0.5vw 1vw; 
+  font-size: 1.6vw; 
+  border-radius: 0.4vw; 
+  cursor: pointer; 
+}
+#next-button{
+  background-color: #2196F3; 
+  color: white; 
+  border: none;
+  padding: 0.5vw 1vw; 
+  font-size: 1.6vw; 
+  border-radius: 0.4vw; 
+  cursor: pointer; 
+}
+
+#prev-button:hover, #next-button:hover {
+  background-color: #0D47A1; 
+}
+
+.course{
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
