@@ -1,35 +1,36 @@
 #title {
   position: absolute;
   line-height: 2vw;
-  top: 1.8vw;
-  right: 10vw;
+  top: 2.2vw;
+  right: 6.5vw;
   bottom: 15vw;
-  font-size: 8vw;
+  font-size: 9.5vw;
   letter-spacing: 1vw;
-  -webkit-text-stroke: 0.3vw rgb(5, 1, 123);
+  -webkit-text-stroke: 0.32vw rgb(47, 73, 80);
   color: transparent; 
-  font-family:"华文彩云";
+  font-family:"黑体";
 }
-
 nav {
   position: absolute;
   top: 1vw;
   left: 2vw;
   right: 57vw;
   bottom: 1vw;
-  background-color: azure;
+  background-color: rgba(240,248,255,0.6);
+  
 }
 
 nav a {
   top:1vw;
-  font-size: 1.32vw;
+  font-size: 1.345vw;
   display: block;
   margin-bottom: 3vw;
   text-decoration: none;
-  color: #333;
-  font-family: "楷体";
+  color: #000000;
+  font-family: "宋体";
   position: relative; 
-  padding-left: 4.5vw; 
+  padding-left: 3.5vw;
+  padding-right: 0.5vw;
 }
 
 nav a::before {
@@ -38,8 +39,8 @@ nav a::before {
   top: 1.5vw;
   left: 1.1vw;
   transform: translateY(-50%);
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 2.3vw;
+  height: 2.3vw;
   background-color: rgba(0, 81, 255, 0.703); 
 }
 
@@ -49,7 +50,7 @@ section {
   left: 45vw;
   right: 1vw;
   bottom: 3vw;
-  background-color: rgb(165, 176, 177);
+  background-color: rgba(221, 232, 232, 0.5);
 }
 
 .image-module {
@@ -72,9 +73,14 @@ section {
 .image-module img.active {
   opacity: 1;
 }
+
 #prev-button {
-  background-color: #2196F3; 
-  color: white; 
+  font-family:"华文彩云";
+  font-weight: bold;
+  position: absolute;
+  right: 85%;
+  background-color:rgba(255,255,255,0);
+  color: rgba(0, 81, 255, 0.703); 
   border: none; 
   padding: 0.5vw 1vw; 
   font-size: 1.6vw; 
@@ -82,8 +88,12 @@ section {
   cursor: pointer; 
 }
 #next-button{
-  background-color: #2196F3; 
-  color: white; 
+  font-family:"华文彩云";
+  font-weight: bold;
+  position: absolute;
+  left:85%;
+  background-color:rgba(255,255,255,0); 
+  color: rgba(0, 81, 255, 0.703); 
   border: none;
   padding: 0.5vw 1vw; 
   font-size: 1.6vw; 
@@ -92,12 +102,18 @@ section {
 }
 
 #prev-button:hover, #next-button:hover {
-  background-color: #0D47A1; 
+   background-color: rgba(229, 244, 161, 0.7);
 }
 
 .course{
   height: 100vh;
   position: absolute;
   width: 100%;
+  background-image: url('./img/background.png'); /* 设置背景图片 */
+  background-size: cover; /* 背景图片覆盖整个页面 */
+  background-position: center; /* 背景图片居中显示 */
+  /*background-repeat: no-repeat;  不重复背景图片 */
+ /* background-attachment: fixed;  背景图片固定，不随滚动条滚动 */
 }
+
 
