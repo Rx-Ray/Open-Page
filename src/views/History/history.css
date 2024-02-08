@@ -1,0 +1,94 @@
+.history {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#e5f1f9, white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.en-history {
+  width: 80%;
+  opacity: 0.3;
+
+}
+
+.cn-history {
+  font-size: 100px;
+  letter-spacing: 15px;
+  color: #575757;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.history-intro {
+  position: absolute;
+  width: 340px;
+  height: 190px;
+  background-color: rgb(152, 173, 214, .8);
+  z-index: 5;
+  color: white;
+  top: 45%;
+  left: 4%;
+}
+
+
+.history-intro-text {
+  margin: 20px;
+  text-indent: 2em;
+  line-height: 1.5em;
+}
+
+.history-image {
+  position: absolute;
+  width: 945px;
+  height: 520px;
+  top: 26.5%;
+  left: 17%;
+  background-color: rgb(236, 236, 244);
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .history-image-box1 {
+  width: 880px;
+  height: 450px;
+  background-color: rgb(196, 196, 204, .9);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.history-image-carousel {
+  width: 930px;
+  height: 520px;
+  object-fit: cover;
+}
+
+.history-nxtbutton {
+  position: absolute;
+  color: white;
+  /* color: transparent; */
+  background-color: rgba(134, 156, 216);
+  opacity: .8;
+  font-size: 80px;
+  height: 120px;
+  width: 100px;
+  left: 97%;
+  margin-top: 180px;
+  /* border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  border-radius: 8px;
+  cursor: default;
+}
