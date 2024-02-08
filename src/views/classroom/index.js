@@ -1,5 +1,5 @@
 import "./xzjt.css"
-
+import "./xzjt.js"
 export default function Course(){
     return(
         <div className="course">
