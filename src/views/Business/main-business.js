@@ -1,5 +1,4 @@
-import '.body.css'
-import '.bootstrap.css'
+
 import Picture1 from './blog-post-01.jpg'
 import Picture2 from './blog-post-02.jpg'
 import Picture3 from './blog-post-03.jpg'
