@@ -1,0 +1,60 @@
+.blue-text {
+  color: blue;
+  font-size: 48px; /* 字体大小继续放大 */
+}
+
+img {
+  border: 10px solid blue; /* 蓝色边框变粗 */
+  width: 20%; /* 图片宽度缩小到容器的20% */
+  height: auto; /* 高度自适应 */
+  margin: 10px; /* 图片之间添加间距 */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 设置容器高度为视口高度 */
+  border: 15px solid blue; /* 添加一圈蓝色粗边框 */
+  padding: 20px; /* 边框和图片之间保持一定距离 */
+  position: relative; /* 使用相对定位 */
+}
+
+.circle {
+  position: absolute;
+  top: -5px; /* 圆形位置调整到最外圈蓝色粗边框的最上面 */
+  background-color: white; 
+  border: 2px solid blue; 
+  border-radius: 50%; /* 圆形 */
+  transform: scale(20); /* 放大 */
+}
+
+.circle1 {
+  left: calc(50% ); /* 圆心在最外圈蓝色粗边框的中心 */
+}
+
+.circle2 {
+  left: calc(50% - 250px); /* 圆心在最外圈蓝色粗边框的中心 */
+}
+
+.circle3 {
+  left: calc(50% - 500px); /* 圆心在最外圈蓝色粗边框的中心 */
+}
+
+.circle4 {
+  left: calc(50% + 250px); /* 圆心在最外圈蓝色粗边框的中心 */
+}
+
+.circle5 {
+  left: calc(50% + 500px); /* 圆心在最外圈蓝色粗边框的中心 */
+}
+
+.more-button {
+  position: absolute;
+  bottom: -20px; /* 按钮位置调整到第四张图片的右下角 */
+  right: -20px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+}
