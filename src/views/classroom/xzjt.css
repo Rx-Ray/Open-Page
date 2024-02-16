@@ -1,4 +1,4 @@
-#title {
+#classroom_title {    /*这里改了名字！！*/
   position: absolute;
   line-height: 2vw;
   top: 2.2vw;
@@ -6,10 +6,11 @@
   bottom: 15vw;
   font-size: 9.5vw;
   letter-spacing: 1vw;
-  -webkit-text-stroke: 0.32vw rgb(47, 73, 80);
+  -webkit-text-stroke: 0.40vw rgb(53, 107, 122);
   color: transparent; 
   font-family:"黑体";
 }
+
 nav {
   position: absolute;
   top: 1vw;
@@ -109,11 +110,9 @@ section {
   height: 100vh;
   position: absolute;
   width: 100%;
-  background-image: url('./img/background.png'); /* 设置背景图片 */
-  background-size: cover; /* 背景图片覆盖整个页面 */
-  background-position: center; /* 背景图片居中显示 */
-  /*background-repeat: no-repeat;  不重复背景图片 */
- /* background-attachment: fixed;  背景图片固定，不随滚动条滚动 */
+  background-image: url('./img/background.png'); 
+  background-size: cover; 
+  background-position: center; 
 }
 
 

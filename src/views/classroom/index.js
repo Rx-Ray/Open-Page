@@ -3,7 +3,7 @@ import "./xzjt.js"
 export default function Course(){
     return(
         <div className="course">
-          <div id="title" class="mytitle">
+          <div id="classroom_title" class="mytitle">
             <p style={{marginTop:"4vw"}}>学长讲堂</p>
           </div>
             
