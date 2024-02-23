@@ -1,0 +1,128 @@
+:root {
+  --white-color:                  #ffffff;
+  --primary-color:                #8d90e1;
+  --secondary-color:              #5748cf;
+  --section-bg-color:             #f0f8ff;
+  --dark-color:                   #000000;
+  --navbar-bg-color:              #5748cf;
+  --p-color:                      #717275;
+  --highlight-icon-color:         #ff0100;
+
+  --body-font-family:             -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Roboto,Arial,"PingFang SC","Hiragino Sans GB","Microsoft Yahei","Microsoft Jhenghei",sans-serif;
+
+  --h1-font-size:                 62px;
+  --h2-font-size:                 48px;
+  --h3-font-size:                 36px;
+  --h4-font-size:                 32px;
+  --h5-font-size:                 24px;
+  --h6-font-size:                 22px;
+  --p-font-size:                  18px;
+  --menu-font-size:               16px;
+  --copyright-text-font-size:     16px;
+
+  --font-weight-normal:           400;
+  --font-weight-medium:           500;
+  --font-weight-bold:             700;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -1px;
+}
+
+
+p {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-normal);
+}
+
+
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+
+.custom-btn,
+.navbar-expand-lg .navbar-nav .nav-link.custom-btn,
+.navbar-nav .nav-link.custom-btn {
+  /* background: var(--white-color); */
+  border-radius: 100px;
+  color: var(--white-color);
+  font-size: var(--copyright-text-font-size);
+  font-weight: var(--font-weight-bold);
+  padding: 15px 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.custom-btn,
+.navbar-nav .nav-link.custom-btn {
+  background: var(--primary-color);
+}
+
+
+.navbar {
+  background: var(--navbar-bg-color);
+  z-index: 9;
+  right: 0;
+  left: 0;
+  /* transition: all 0.3s; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  line-height: 1.2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--white-color);
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+
+.nav-tabs .nav-link {
+  background: var(--white-color);
+  border-radius: 0;
+  border: 0;
+  border-left: 3px solid var(--section-bg-color);
+  padding: 20px 30px;
+  transition: all 0.3s;
+  width: 50%;
+}
+
+
+
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover {
+  border-left-color: var(--navbar-bg-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
