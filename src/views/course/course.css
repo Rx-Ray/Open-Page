@@ -1,0 +1,132 @@
+  .container {
+    background-color: #4285F4;
+    height: 100vh;
+    border-radius: 2vw;
+    transform: skew(5deg);
+  }
+
+  .around-article{
+    height: 20%;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* 页头 */
+  .header {
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 70%;
+    margin-top: 0;
+    border-radius: 2vw;
+  }
+  
+  .header h1 {
+    font-size: 5vw;
+    color: #4285F4;
+    font-family: "幼圆";
+    margin: 0;
+  }
+
+  /* 内容区域 */
+  .main-article-content {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    
+    border: 1.5vw solid #FFFFFF;
+    margin: auto auto;
+  }
+
+  .box {
+    background-color: #B3E5FC;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 55vh;
+    margin:  5vw 0 5vw 10vw;
+    border: 1vw solid #FFFFFF;
+  }
+
+  .dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-2.5vw);
+  }
+  
+  .orange-dot,
+  .green-dot,
+  .pillow-blue-dot1,
+  .normal-blue-dot1,
+  .pillow-blue-dot2,
+  .normal-blue-dot2,
+  .blue-dot,
+  .yellow-dot {
+    display: inline-block;
+    background-color: var(--dot-color);
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    margin-right: 0vw;
+    z-index: 2;
+  }
+  
+  .orange-dot {
+    --dot-color: #FFA726;
+  }
+  
+  .green-dot {
+    --dot-color: #66BB6A;
+  }
+  
+  .blue-dot {
+    --dot-color: #42A5F5;
+  }
+  
+  .yellow-dot {
+    --dot-color: #FFEB3B;
+  }
+  
+  .normal-blue-dot1,
+  .normal-blue-dot2{
+    width: 5vw;
+    height: 5vw;
+    --dot-color: #4285F4;
+    border: 0.3vw solid #FFFFFF;
+  }
+
+  .pillow-blue-dot1,
+  .pillow-blue-dot2{
+    width: 5vw;
+    height: 5vw;
+    --dot-color: #B3E5FC;
+    border: 0.3vw solid #FFFFFF;
+  }
+
+.gray-rectangle {
+    display: inline-block;
+    background-color: #CCCCCC;
+    width: 35vw;
+    height: 4vw;
+    margin: 0;
+    margin-top:0;
+    border-radius: 1vw;
+    z-index: 1;
+    left:-1vw;
+    border: 0.3vw solid #FFFFFF;
+  }
+
+  .article-content{
+    margin: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  
+  
