@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #747cfb;
+    width: auto;
+    height: 75px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header h3 {
+    color: white;
+    font-weight: bold;
+    margin-right: auto;
+    font-size: 2em; /* Increase font size */
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+}
+
+.tweet {
+    margin: 40px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+.cover {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.cover:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+a {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+}
+
+.abstract,
+.time {
+    color: gray;
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.divider {
+    height: 2px;
+    border-left: 2px solid rgba(91, 90, 90, 0.4);
+    margin-top: -6px;
+    margin-left: 20px;
+}
+
+.active {  
+    color: lightgray;
+}
